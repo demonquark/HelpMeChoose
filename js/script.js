@@ -39,5 +39,5 @@ function wereDone() {
 
 function submitLink(waarde){
     document.getElementById("hiddenValue").value = waarde;
-    javascript:document.forms['Step2Form'].submit();
+    javascript:document.forms['pageForm'].submit();
 }

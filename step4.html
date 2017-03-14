@@ -60,24 +60,24 @@
                 </div>
             </section>
             <article class="review-form">
-                <form action="step2.html" method="POST" class="form">
+                <form action="step2.html" method="POST" class="form" name="pageForm">
                     <section>
                         <p class="introduction">How well do you trust our app’s ability to provide you with a good recommnedation?</p>
                     </section>
                     <section class="row">
                         <div class="col col-4">
                             <div class="form-item">
-                                <input type="submit" id="continue-onward" class="button green-primary" value="Great choice &#x00A;I’ll certainly go" />
+                                <button id="continue-onward2" onclick="javascript:submitLink('Great_choice')" class="button green-primary">Great choice <br />I’ll certainly go</button>
                             </div>
                         </div>
                         <div class="col col-4">
                             <div class="form-item">
-                                <input type="submit" id="continue-onward" class="button orange-primary" value="Decent choice &#x00A;I might go" />
+                                <button id="continue-onward2" onclick="javascript:submitLink('Decent_choice')" class="button orange-primary">Decent choice <br />I might go</button>
                             </div>
                         </div>
                         <div class="col col-4">
                             <div class="form-item">
-                                <input type="submit" id="continue-onward" class="button purple-primary" value="Terrible choice &#x00A;I won’t go" />
+                                <button id="continue-onward3" onclick="javascript:submitLink('Terrible_choice')" class="button purple-primary">Terrible choice <br />I won’t go</button>
                             </div>
                         </div>
                     </section>
@@ -121,6 +121,11 @@
                     </ul>
                 </div>
             </section>
+            <div class="row">
+                <!-- A VERSION -->
+                <img id="credits" src="img/BUPT_logo.png" alt="Made by Beijing University of Posts and Telecommunications" />            
+                <!-- B VERSION (no image) -->
+            </div>
         </div>
         <footer id="footer">
             <nav>
